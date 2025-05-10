@@ -1,5 +1,5 @@
 // a list of tokens by chain
-import { Currency, Token } from '@pollum-io/sdk-core'
+import { Currency, Token } from '@weconomy/sdk-core'
 import { SupportedChainId } from 'constants/chains'
 
 import { nativeOnChain, USDC_ROLLUX, USDT_ROLLUX, WBTC_ROLLUX, WRAPPED_NATIVE_CURRENCY } from './tokens'

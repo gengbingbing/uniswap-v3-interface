@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { Currency, Percent, Price } from '@pollum-io/sdk-core'
+import { Currency, Percent, Price } from '@weconomy/sdk-core'
 import { Text } from 'rebass'
 import { useTheme } from 'styled-components/macro'
 

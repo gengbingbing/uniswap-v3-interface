@@ -1,7 +1,11 @@
-import { Price, Token } from '@pollum-io/sdk-core'
-import { tickToPrice } from '@pollum-io/v3-sdk'
+import { Price, Token } from '@weconomy/sdk-core'
+import { tickToPrice } from '@weconomy/v3-sdk'
 
-export function getTickToPrice(baseToken?: Token, quoteToken?: Token, tick?: number): Price<Token, Token> | undefined {
+export function getTickToPrice(
+  baseToken?: Token,
+  quoteToken?: Token,
+  tick?: number
+): Price<Token, Token> | undefined | any {
   if (!baseToken || !quoteToken || typeof tick !== 'number') {
     return undefined
   }

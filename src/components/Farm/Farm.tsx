@@ -1,4 +1,4 @@
-import { ChainId } from '@pollum-io/smart-order-router'
+import { ChainId } from '@weconomy/smart-order-router'
 import { useWeb3React } from '@web3-react/core'
 import CustomSelector, { SelectorItem } from 'components/CustomSelector/CustomSelector'
 import { MAX_WIDTH_MEDIA_BREAKPOINT } from 'components/Tokens/constants'

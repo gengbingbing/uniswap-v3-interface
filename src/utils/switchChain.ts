@@ -1,5 +1,5 @@
-import { ChainId } from '@pollum-io/smart-order-router'
 import { Connector } from '@web3-react/types'
+import { ChainId } from '@weconomy/smart-order-router'
 import { networkConnection, walletConnectV2Connection } from 'connection'
 import { getChainInfo } from 'constants/chainInfo'
 import { isSupportedChain } from 'constants/chains'

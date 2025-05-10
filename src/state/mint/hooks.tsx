@@ -1,7 +1,7 @@
 import { Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Percent, Price, Token } from '@pollum-io/sdk-core'
-import { Pair } from '@pollum-io/v1-sdk'
 import { useWeb3React } from '@web3-react/core'
+import { Currency, CurrencyAmount, Percent, Price, Token } from '@weconomy/sdk-core'
+import { Pair } from '@weconomy/v2-sdk'
 import JSBI from 'jsbi'
 import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { ReactNode, useCallback, useMemo } from 'react'
@@ -78,6 +78,8 @@ export function useDerivedMintInfo(
 
   // pair
   const [pairState, pair] = useV2Pair(currencies[Field.CURRENCY_A], currencies[Field.CURRENCY_B])
+
+  console.log(pairState, pair, "=======pairState, pair========", currencies[Field.CURRENCY_A], currencies[Field.CURRENCY_B]);
   const totalSupply = useTotalSupply(pair?.liquidityToken)
 
   const noLiquidity: boolean =
@@ -138,7 +140,7 @@ export function useDerivedMintInfo(
     }
   }, [dependentAmount, independentAmount, independentField])
 
-  const price = useMemo(() => {
+  const price: any = useMemo(() => {
     if (noLiquidity) {
       const { [Field.CURRENCY_A]: currencyAAmount, [Field.CURRENCY_B]: currencyBAmount } = parsedAmounts
       if (currencyAAmount?.greaterThan(0) && currencyBAmount?.greaterThan(0)) {

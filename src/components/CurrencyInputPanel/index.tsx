@@ -1,6 +1,6 @@
 import { Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Percent } from '@pollum-io/sdk-core'
-import { Pair } from '@pollum-io/v1-sdk'
+import { Currency, CurrencyAmount, Percent } from '@weconomy/sdk-core'
+import { Pair } from '@weconomy/v2-sdk'
 import { NumberType } from '@uniswap/conedison/format'
 import { useWeb3React } from '@web3-react/core'
 import { LoadingOpacityContainer, loadingOpacityMixin } from 'components/Loader/styled'

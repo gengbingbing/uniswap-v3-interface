@@ -1,7 +1,7 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { Trans } from '@lingui/macro'
-import { Percent, Price, Token } from '@pollum-io/sdk-core'
-import { Position } from '@pollum-io/v3-sdk'
+import { Percent, Price, Token } from '@weconomy/sdk-core'
+import { Position } from '@weconomy/v3-sdk'
 import LoadingGifLight from 'assets/images/lightLoading.gif'
 import LoadingGif from 'assets/images/loading.gif'
 import RangeBadge from 'components/Badge/RangeBadge'
@@ -112,7 +112,7 @@ interface PositionListItemProps {
   tickUpper: number
 }
 
-export function getPriceOrderingFromPositionForUI(position?: Position): {
+export function getPriceOrderingFromPositionForUI(position?: Position | any): {
   priceLower?: Price<Token, Token>
   priceUpper?: Price<Token, Token>
   quote?: Token

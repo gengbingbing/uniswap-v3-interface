@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Token } from '@pollum-io/sdk-core'
+import { Currency, CurrencyAmount, Token } from '@weconomy/sdk-core'
 import { useSingleCallResult } from 'lib/hooks/multicall'
 import { useMemo } from 'react'
 

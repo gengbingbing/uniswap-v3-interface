@@ -1,5 +1,5 @@
-import { Currency } from '@pollum-io/sdk-core'
-import { FeeAmount } from '@pollum-io/v3-sdk'
+import { Currency } from '@weconomy/sdk-core'
+import { FeeAmount } from '@weconomy/v3-sdk'
 import { TickProcessed, usePoolActiveLiquidity } from 'hooks/usePoolTickData'
 import { useCallback, useMemo } from 'react'
 
@@ -15,6 +15,8 @@ export function useDensityChartData({
   feeAmount?: FeeAmount
 }) {
   const { isLoading, error, data } = usePoolActiveLiquidity(currencyA, currencyB, feeAmount)
+
+
 
   const formatData = useCallback(() => {
     if (!data?.length) {

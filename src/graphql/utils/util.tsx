@@ -1,5 +1,5 @@
-import { Currency } from '@pollum-io/sdk-core'
-import { ChainId } from '@pollum-io/smart-order-router'
+import { Currency } from '@weconomy/sdk-core'
+import { ChainId } from '@weconomy/smart-order-router'
 import { FarmPoolData, InfoAddress } from 'components/Farm/constants'
 import { SupportedChainId } from 'constants/chains'
 import { NATIVE_CHAIN_ID, nativeOnChain, WRAPPED_NATIVE_CURRENCY } from 'constants/tokens'

@@ -1,6 +1,6 @@
 import { Trans } from '@lingui/macro'
-import { Currency, Price } from '@pollum-io/sdk-core'
 import { formatNumber, NumberType } from '@uniswap/conedison/format'
+import { Currency, Price } from '@weconomy/sdk-core'
 import { useUSDPrice } from 'hooks/useUSDPrice'
 import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { useCallback, useState } from 'react'
@@ -9,7 +9,7 @@ import { ThemedText } from 'theme'
 import { formatTransactionAmount, priceToPreciseFloat } from 'utils/formatNumbers'
 
 interface TradePriceProps {
-  price: Price<Currency, Currency>
+  price: Price<Currency, Currency> | any
 }
 
 const StyledPriceContainer = styled.button`

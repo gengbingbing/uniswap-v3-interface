@@ -1,4 +1,4 @@
-import { Token } from '@pollum-io/sdk-core'
+import { Token } from '@weconomy/sdk-core'
 
 import { tryParsePrice } from './utils'
 

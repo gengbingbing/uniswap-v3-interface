@@ -1,4 +1,4 @@
-import { ChainId } from '@pollum-io/smart-order-router'
+import { ChainId } from '@weconomy/smart-order-router'
 import { NATIVE_CHAIN_ID } from 'constants/tokens'
 import { TokenStandard } from 'graphql/data/__generated__/types-and-hooks'
 import { SearchToken } from 'graphql/data/SearchTokens'

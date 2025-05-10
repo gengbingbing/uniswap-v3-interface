@@ -1,4 +1,4 @@
-import { Currency } from '@pollum-io/sdk-core'
+import { Currency } from '@weconomy/sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { useMemo } from 'react'
 import { useCombinedActiveList } from 'state/lists/hooks'

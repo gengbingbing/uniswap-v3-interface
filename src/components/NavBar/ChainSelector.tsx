@@ -1,5 +1,5 @@
 import { t } from '@lingui/macro'
-import { ChainId } from '@pollum-io/smart-order-router'
+import { ChainId } from '@weconomy/smart-order-router'
 import { useWeb3React } from '@web3-react/core'
 import { MouseoverTooltip } from 'components/Tooltip'
 import { ConnectionType } from 'connection'

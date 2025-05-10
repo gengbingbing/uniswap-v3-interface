@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, TradeType } from '@pollum-io/sdk-core'
 import { useWeb3React } from '@web3-react/core'
+import { Currency, CurrencyAmount, TradeType } from '@weconomy/sdk-core'
 import { WRAPPED_NATIVE_CURRENCY } from 'constants/tokens'
 import { useMemo } from 'react'
 import { RouterPreference } from 'state/routing/slice'

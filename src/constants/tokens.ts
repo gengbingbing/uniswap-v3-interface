@@ -1,4 +1,4 @@
-import { Ether, NativeCurrency, Token, WETH9 } from '@pollum-io/sdk-core'
+import { Ether, NativeCurrency, Token, WETH9 } from '@weconomy/sdk-core'
 import { SupportedChainId } from 'constants/chains'
 
 import { UNI_ADDRESS } from './addresses'

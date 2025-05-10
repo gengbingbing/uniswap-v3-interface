@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@pollum-io/sdk-core'
+import { Currency, CurrencyAmount } from '@weconomy/sdk-core'
 import { useNewTopTokens } from 'graphql/tokens/NewTopTokens'
 import { useFetchedTokenData } from 'graphql/tokens/TokenData'
 import { useMemo } from 'react'

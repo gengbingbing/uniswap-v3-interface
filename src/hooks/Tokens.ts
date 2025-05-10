@@ -1,5 +1,5 @@
-import { Currency, Token } from '@pollum-io/sdk-core'
 import { useWeb3React } from '@web3-react/core'
+import { Currency, Token } from '@weconomy/sdk-core'
 import { getChainInfo } from 'constants/chainInfo'
 import { SupportedChainId } from 'constants/chains'
 import { DEFAULT_INACTIVE_LIST_URLS, DEFAULT_LIST_OF_LISTS } from 'constants/lists'

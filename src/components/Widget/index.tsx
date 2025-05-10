@@ -1,5 +1,3 @@
-import { Trade } from '@pollum-io/router-sdk'
-import { Currency, TradeType } from '@pollum-io/sdk-core'
 import {
   AddEthereumChainParameter,
   DialogAnimationType,
@@ -9,6 +7,8 @@ import {
   SwapWidgetSkeleton,
 } from '@pollum-io/widgets'
 import { useWeb3React } from '@web3-react/core'
+import { Trade } from '@weconomy/router-sdk'
+import { Currency, TradeType } from '@weconomy/sdk-core'
 import { useToggleAccountDrawer } from 'components/AccountDrawer'
 import { useActiveLocale } from 'hooks/useActiveLocale'
 import {
@@ -96,7 +96,7 @@ export default function Widget({
     }
   }, [inputs.value.INPUT])
   const onSwapPriceUpdateAck = useCallback(
-    (stale: Trade<Currency, Currency, TradeType>, update: Trade<Currency, Currency, TradeType>) => {
+    (stale: Trade<Currency, Currency, TradeType> | any, update: Trade<Currency, Currency, TradeType> | any) => {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const eventProperties = {
         chain_id: update.inputAmount.currency.chainId,

@@ -1,4 +1,4 @@
-import { Price, Token } from '@pollum-io/sdk-core'
+import { Price, Token } from '@weconomy/sdk-core'
 import {
   encodeSqrtRatioX96,
   FeeAmount,
@@ -6,7 +6,7 @@ import {
   priceToClosestTick,
   TICK_SPACINGS,
   TickMath,
-} from '@pollum-io/v3-sdk'
+} from '@weconomy/v3-sdk'
 import JSBI from 'jsbi'
 
 export function tryParsePrice(baseToken?: Token, quoteToken?: Token, value?: string) {
@@ -41,7 +41,7 @@ export function tryParseTick(
     return undefined
   }
 
-  const price = tryParsePrice(baseToken, quoteToken, value)
+  const price: any = tryParsePrice(baseToken, quoteToken, value)
 
   if (!price) {
     return undefined

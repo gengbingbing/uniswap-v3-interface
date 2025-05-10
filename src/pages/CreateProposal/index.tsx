@@ -1,7 +1,7 @@
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { getAddress, isAddress } from '@ethersproject/address'
 import { Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Token } from '@pollum-io/sdk-core'
+import { Currency, CurrencyAmount, Token } from '@weconomy/sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { ButtonError } from 'components/Button'
 import { BlueCard } from 'components/Card'

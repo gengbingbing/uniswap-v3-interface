@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount, TradeType } from '@pollum-io/sdk-core'
-import { Route, SwapQuoter } from '@pollum-io/v3-sdk'
 import { useWeb3React } from '@web3-react/core'
+import { Currency, CurrencyAmount, TradeType } from '@weconomy/sdk-core'
+import { Route, SwapQuoter } from '@weconomy/v3-sdk'
 import JSBI from 'jsbi'
 import { useSingleContractWithCallData } from 'lib/hooks/multicall'
 import { useMemo } from 'react'

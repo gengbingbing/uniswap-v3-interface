@@ -1,4 +1,4 @@
-import { Currency } from '@pollum-io/sdk-core'
+import { Currency } from '@weconomy/sdk-core'
 import { AutoColumn } from 'components/Column'
 import CurrencyLogo from 'components/Logo/CurrencyLogo'
 import { AutoRow } from 'components/Row'

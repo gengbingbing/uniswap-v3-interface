@@ -1,7 +1,7 @@
 import { Interface } from '@ethersproject/abi'
 import IPegasysPairABI from '@pollum-io/pegasys-protocol/artifacts/contracts/pegasys-core/interfaces/IPegasysPair.sol/IPegasysPair.json'
-import { Currency, CurrencyAmount } from '@pollum-io/sdk-core'
-import { computePairAddress, Pair } from '@pollum-io/v1-sdk'
+import { Currency, CurrencyAmount } from '@weconomy/sdk-core'
+import { computePairAddress, Pair } from '@weconomy/v2-sdk'
 import { useMultipleContractSingleData } from 'lib/hooks/multicall'
 import { useMemo } from 'react'
 

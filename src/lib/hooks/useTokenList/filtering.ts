@@ -1,4 +1,4 @@
-import { NativeCurrency, Token } from '@pollum-io/sdk-core'
+import { NativeCurrency, Token } from '@weconomy/sdk-core'
 import { TokenInfo } from '@uniswap/token-lists'
 import { TokenData } from 'graphql/tokens/TokenData'
 

@@ -1,5 +1,5 @@
-import { Currency, Token } from '@pollum-io/sdk-core'
-import { FeeAmount, Pool } from '@pollum-io/v3-sdk'
+import { Currency, Token } from '@weconomy/sdk-core'
+import { FeeAmount, Pool } from '@weconomy/v3-sdk'
 import { useMemo } from 'react'
 
 import { useAllCurrencyCombinations } from './useAllCurrencyCombinations'

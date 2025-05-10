@@ -1,5 +1,5 @@
-import { CurrencyAmount, Token } from '@pollum-io/sdk-core'
 import { useWeb3React } from '@web3-react/core'
+import { CurrencyAmount, Token } from '@weconomy/sdk-core'
 import { useTokenBalancesWithLoadingIndicator } from 'lib/hooks/useCurrencyBalance'
 import { useMemo } from 'react'
 
@@ -20,5 +20,6 @@ export function useAllTokenBalances(): [{ [tokenAddress: string]: CurrencyAmount
   const allTokens = useDefaultActiveTokens()
   const allTokensArray = useMemo(() => Object.values(allTokens ?? {}), [allTokens])
   const [balances, balancesIsLoading] = useTokenBalancesWithLoadingIndicator(account ?? undefined, allTokensArray)
+  console.log(allTokensArray, '=========allTokensArray=========', account)
   return [balances ?? {}, balancesIsLoading]
 }

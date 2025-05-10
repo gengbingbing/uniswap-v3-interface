@@ -7,7 +7,7 @@ import type { TransactionResponse } from '@ethersproject/providers'
 import { toUtf8String, Utf8ErrorFuncs, Utf8ErrorReason } from '@ethersproject/strings'
 // eslint-disable-next-line no-restricted-imports
 import { t } from '@lingui/macro'
-import { CurrencyAmount, Token } from '@pollum-io/sdk-core'
+import { CurrencyAmount, Token } from '@weconomy/sdk-core'
 import GOVERNANCE_ABI from '@uniswap/governance/build/GovernorAlpha.json'
 import UNI_ABI from '@uniswap/governance/build/Uni.json'
 import { useWeb3React } from '@web3-react/core'

@@ -1,6 +1,6 @@
 import { Interface } from '@ethersproject/abi'
-import { Currency, CurrencyAmount } from '@pollum-io/sdk-core'
-import { toHex } from '@pollum-io/v3-sdk'
+import { Currency, CurrencyAmount } from '@weconomy/sdk-core'
+import { toHex } from '@weconomy/v3-sdk'
 
 import { Erc20Interface } from '../abis/types/Erc20'
 

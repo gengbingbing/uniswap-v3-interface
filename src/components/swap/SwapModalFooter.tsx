@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { Currency, Percent, TradeType } from '@pollum-io/sdk-core'
+import { Currency, Percent, TradeType } from '@weconomy/sdk-core'
 import { formatPercentNumber, getTokenAddress } from 'lib/utils/analytics'
 import { ReactNode } from 'react'
 import { Text } from 'rebass'

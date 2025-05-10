@@ -1,4 +1,4 @@
-import { Price, Token } from '@pollum-io/sdk-core'
+import { Price, Token } from '@weconomy/sdk-core'
 import { formatPrice, NumberType } from '@uniswap/conedison/format'
 
 import { Bound } from '../state/mint/v3/actions'

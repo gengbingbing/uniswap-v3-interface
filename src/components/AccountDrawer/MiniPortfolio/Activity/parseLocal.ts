@@ -1,6 +1,6 @@
 import { t } from '@lingui/macro'
-import { Currency, CurrencyAmount, TradeType } from '@pollum-io/sdk-core'
-import { ChainId, nativeOnChain } from '@pollum-io/smart-order-router'
+import { Currency, CurrencyAmount, TradeType } from '@weconomy/sdk-core'
+import { ChainId, nativeOnChain } from '@weconomy/smart-order-router'
 import { formatCurrencyAmount } from '@uniswap/conedison/format'
 import { TransactionPartsFragment, TransactionStatus } from 'graphql/data/__generated__/types-and-hooks'
 import { useMemo } from 'react'

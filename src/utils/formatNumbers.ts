@@ -1,5 +1,5 @@
 /* Copied from Uniswap/v-3: https://github.com/Uniswap/v3-info/blob/master/src/utils/numbers.ts */
-import { Currency, CurrencyAmount, Price } from '@pollum-io/sdk-core'
+import { Currency, CurrencyAmount, Price } from '@weconomy/sdk-core'
 import { DEFAULT_LOCALE, SupportedLocale } from 'constants/locales'
 import numbro from 'numbro'
 

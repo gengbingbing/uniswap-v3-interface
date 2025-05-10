@@ -1,5 +1,5 @@
-import { Currency } from '@pollum-io/sdk-core'
 import { TokenInfo } from '@uniswap/token-lists'
+import { Currency } from '@weconomy/sdk-core'
 import { useMemo } from 'react'
 
 import AssetLogo, { AssetLogoBaseProps } from './AssetLogo'

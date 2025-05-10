@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { Pair } from '@pollum-io/v1-sdk'
+import { Pair } from '@weconomy/v2-sdk'
 import { useWeb3React } from '@web3-react/core'
 import { L2_CHAIN_IDS } from 'constants/chains'
 import JSBI from 'jsbi'

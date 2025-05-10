@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { Currency, Percent, TradeType } from '@pollum-io/sdk-core'
+import { Currency, Percent, TradeType } from '@weconomy/sdk-core'
 import { useUSDPrice } from 'hooks/useUSDPrice'
 import { getPriceUpdateBasisPoints } from 'lib/utils/analytics'
 import { useEffect, useState } from 'react'
@@ -48,7 +48,7 @@ export default function SwapModalHeader({
   showAcceptChanges,
   onAcceptChanges,
 }: {
-  trade: InterfaceTrade<Currency, Currency, TradeType>
+  trade: InterfaceTrade<Currency, Currency, TradeType> | any
   shouldLogModalCloseEvent: boolean
   setShouldLogModalCloseEvent: (shouldLog: boolean) => void
   allowedSlippage: Percent
@@ -58,7 +58,7 @@ export default function SwapModalHeader({
 }) {
   const theme = useTheme()
 
-  const [lastExecutionPrice, setLastExecutionPrice] = useState(trade.executionPrice)
+  const [lastExecutionPrice, setLastExecutionPrice] = useState<any>(trade.executionPrice)
   const [priceUpdate, setPriceUpdate] = useState<number | undefined>()
 
   const fiatValueInput = useUSDPrice(trade.inputAmount)

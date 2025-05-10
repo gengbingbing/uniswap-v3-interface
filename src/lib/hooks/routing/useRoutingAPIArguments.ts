@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, TradeType } from '@pollum-io/sdk-core'
+import { Currency, CurrencyAmount, TradeType } from '@weconomy/sdk-core'
 import { useMemo } from 'react'
 import { RouterPreference } from 'state/routing/slice'
 

@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { Currency } from '@pollum-io/sdk-core'
+import { Currency } from '@weconomy/sdk-core'
 import { NATIVE_CHAIN_ID } from 'constants/tokens'
 import { useOnClickOutside } from 'hooks/useOnClickOutside'
 import { useMemo, useRef } from 'react'

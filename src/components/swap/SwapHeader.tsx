@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { Percent } from '@pollum-io/sdk-core'
+import { Percent } from '@weconomy/sdk-core'
 import { headlineSmall } from 'nft/css/common.css'
 import styled from 'styled-components/macro'
 

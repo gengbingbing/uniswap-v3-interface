@@ -1,6 +1,6 @@
 // import { Contract } from '@ethersproject/contracts'
 // import { formatUnits } from '@ethersproject/units'
-// import { ChainId } from '@pollum-io/smart-order-router'
+// import { ChainId } from '@weconomy/smart-order-router'
 // import { useWeb3React } from '@web3-react/core'
 // import FARMING_CENTER_ABI from 'abis/farming-center.json'
 // import FINITE_FARMING_ABI from 'abis/finite-farming.json'

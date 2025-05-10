@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { Token } from '@pollum-io/sdk-core'
+import { Token } from '@weconomy/sdk-core'
 import { TokenData } from 'graphql/tokens/TokenData'
 import { useIsNftPage } from 'hooks/useIsNftPage'
 import { Box } from 'nft/components/Box'

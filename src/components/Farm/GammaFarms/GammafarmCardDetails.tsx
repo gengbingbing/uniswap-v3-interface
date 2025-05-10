@@ -1,6 +1,6 @@
 import { TransactionResponse } from '@ethersproject/abstract-provider'
 import { Trans } from '@lingui/macro'
-import { CurrencyAmount, Token } from '@pollum-io/sdk-core'
+import { CurrencyAmount, Token } from '@weconomy/sdk-core'
 import { formatNumber } from '@uniswap/conedison/format'
 import { useWeb3React } from '@web3-react/core'
 import { ButtonPrimary } from 'components/Button'

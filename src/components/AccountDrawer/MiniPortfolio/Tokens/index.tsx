@@ -1,4 +1,4 @@
-import { Token } from '@pollum-io/sdk-core'
+import { Token } from '@weconomy/sdk-core'
 import { formatNumber, NumberType } from '@uniswap/conedison/format'
 import Row from 'components/Row'
 import { formatDelta } from 'components/Tokens/TokenDetails/PriceChart'

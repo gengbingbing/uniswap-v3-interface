@@ -1,5 +1,5 @@
 import { AddressZero } from '@ethersproject/constants'
-import { CurrencyAmount, Percent, Token } from '@pollum-io/sdk-core'
+import { CurrencyAmount, Percent, Token } from '@weconomy/sdk-core'
 
 import { calculateSlippageAmount } from './calculateSlippageAmount'
 

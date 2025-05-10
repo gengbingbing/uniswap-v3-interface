@@ -1,5 +1,5 @@
 import { t } from '@lingui/macro'
-import { ChainId } from '@pollum-io/smart-order-router'
+import { ChainId } from '@weconomy/smart-order-router'
 import { formatNumberOrString, NumberType } from '@uniswap/conedison/format'
 import {
   ActivityType,

@@ -1,5 +1,5 @@
-import { Percent, Token } from '@pollum-io/sdk-core'
-import { computePairAddress, Pair } from '@pollum-io/v1-sdk'
+import { Percent, Token } from '@weconomy/sdk-core'
+import { computePairAddress, Pair } from '@weconomy/v2-sdk'
 import { useWeb3React } from '@web3-react/core'
 import { L2_CHAIN_IDS } from 'constants/chains'
 import { SupportedLocale } from 'constants/locales'

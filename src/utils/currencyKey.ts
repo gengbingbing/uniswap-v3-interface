@@ -1,5 +1,5 @@
-import { Currency } from '@pollum-io/sdk-core'
-import { ChainId } from '@pollum-io/smart-order-router'
+import { Currency } from '@weconomy/sdk-core'
+import { ChainId } from '@weconomy/smart-order-router'
 import { NATIVE_CHAIN_ID } from 'constants/tokens'
 import { TokenStandard } from 'graphql/data/__generated__/types-and-hooks'
 import { Chain } from 'graphql/utils/types'

@@ -1,7 +1,7 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { formatEther, parseEther } from '@ethersproject/units'
 import { t, Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Token, TradeType } from '@pollum-io/sdk-core'
+import { Currency, CurrencyAmount, Token, TradeType } from '@weconomy/sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import LoadingGifLight from 'assets/images/lightLoading.gif'
 import LoadingGif from 'assets/images/loading.gif'

@@ -1,11 +1,11 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import type { TransactionResponse } from '@ethersproject/providers'
 import { Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Fraction, Percent, Price, Token } from '@pollum-io/sdk-core'
-import { NonfungiblePositionManager, Pool, Position } from '@pollum-io/v3-sdk'
 import { SupportedChainId } from '@pollum-io/widgets'
 import { formatPrice, NumberType } from '@uniswap/conedison/format'
 import { useWeb3React } from '@web3-react/core'
+import { Currency, CurrencyAmount, Fraction, Percent, Price, Token } from '@weconomy/sdk-core'
+import { NonfungiblePositionManager, Pool, Position } from '@weconomy/v3-sdk'
 import { sendEvent } from 'components/analytics'
 import Badge from 'components/Badge'
 import { ButtonConfirmed, ButtonGray, ButtonPrimary } from 'components/Button'
@@ -236,7 +236,7 @@ function LinkedCurrency({ chainId, currency }: { chainId?: number; currency?: Cu
 
 function getRatio(
   lower: Price<Currency, Currency>,
-  current: Price<Currency, Currency>,
+  current: Price<Currency, Currency> | any,
   upper: Price<Currency, Currency>
 ) {
   try {

@@ -1,7 +1,7 @@
 import { arrayify } from '@ethersproject/bytes'
 import { parseBytes32String } from '@ethersproject/strings'
-import { Currency, Token } from '@pollum-io/sdk-core'
 import { useWeb3React } from '@web3-react/core'
+import { Currency, Token } from '@weconomy/sdk-core'
 import { isSupportedChain } from 'constants/chains'
 import { useBytes32TokenContract, useTokenContract } from 'hooks/useContract'
 import { NEVER_RELOAD, useSingleCallResult } from 'lib/hooks/multicall'

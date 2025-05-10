@@ -1,4 +1,4 @@
-import { Percent } from '@pollum-io/sdk-core'
+import { Percent } from '@weconomy/sdk-core'
 
 const PRECISION = 10000
 export function computeFiatValuePriceImpact(

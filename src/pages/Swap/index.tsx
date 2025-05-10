@@ -1,8 +1,8 @@
 import { Trans } from '@lingui/macro'
-import { Trade } from '@pollum-io/router-sdk'
-import { Currency, CurrencyAmount, Percent, Token, TradeType } from '@pollum-io/sdk-core'
-import { UNIVERSAL_ROUTER_ADDRESS } from '@pollum-io/universal-router-sdk'
 import { useWeb3React } from '@web3-react/core'
+import { Trade } from '@weconomy/router-sdk'
+import { Currency, CurrencyAmount, Percent, Token, TradeType } from '@weconomy/sdk-core'
+import { UNIVERSAL_ROUTER_ADDRESS } from '@weconomy/universal-router-sdk'
 import LoadingGifLight from 'assets/images/lightLoading.gif'
 import LoadingGif from 'assets/images/loading.gif'
 import { useToggleAccountDrawer } from 'components/AccountDrawer'
@@ -201,6 +201,8 @@ export default function Swap({ className }: { className?: string }) {
     currencies,
     inputError: swapInputError,
   } = useDerivedSwapInfo()
+
+  console.log(currencies, 'currencies')
 
   const {
     wrapType,

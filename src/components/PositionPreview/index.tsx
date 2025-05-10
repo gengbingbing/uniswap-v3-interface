@@ -1,6 +1,6 @@
 import { Trans } from '@lingui/macro'
-import { Currency } from '@pollum-io/sdk-core'
-import { Position } from '@pollum-io/v3-sdk'
+import { Currency } from '@weconomy/sdk-core'
+import { Position } from '@weconomy/v3-sdk'
 import RangeBadge from 'components/Badge/RangeBadge'
 import { LightCard } from 'components/Card'
 import { AutoColumn } from 'components/Column'
@@ -51,8 +51,8 @@ export const PositionPreview = ({
 
   const price = sorted ? position.pool.priceOf(position.pool.token0) : position.pool.priceOf(position.pool.token1)
 
-  const priceLower = sorted ? position.token0PriceLower : position.token0PriceUpper.invert()
-  const priceUpper = sorted ? position.token0PriceUpper : position.token0PriceLower.invert()
+  const priceLower: any = sorted ? position.token0PriceLower : position.token0PriceUpper.invert()
+  const priceUpper: any = sorted ? position.token0PriceUpper : position.token0PriceLower.invert()
 
   const handleRateChange = useCallback(() => {
     setBaseCurrency(quoteCurrency)

@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, NativeCurrency, Percent, Token, TradeType } from '@pollum-io/sdk-core'
+import { Currency, CurrencyAmount, NativeCurrency, Percent, Token, TradeType } from '@weconomy/sdk-core'
 import useAutoSlippageTolerance from 'hooks/useAutoSlippageTolerance'
 import { useBestTrade } from 'hooks/useBestTrade'
 import { useMemo } from 'react'

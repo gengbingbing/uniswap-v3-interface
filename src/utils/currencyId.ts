@@ -1,4 +1,4 @@
-import { Currency } from '@pollum-io/sdk-core'
+import { Currency } from '@weconomy/sdk-core'
 
 export function currencyId(currency: Currency): string {
   if (currency.isNative) return 'SYS'

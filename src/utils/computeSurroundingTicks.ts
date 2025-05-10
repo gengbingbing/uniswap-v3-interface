@@ -1,5 +1,5 @@
-import { Token } from '@pollum-io/sdk-core'
-import { tickToPrice } from '@pollum-io/v3-sdk'
+import { Token } from '@weconomy/sdk-core'
+import { tickToPrice } from '@weconomy/v3-sdk'
 import { TickProcessed } from 'hooks/usePoolTickData'
 import JSBI from 'jsbi'
 
